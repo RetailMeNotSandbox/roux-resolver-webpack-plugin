@@ -28,10 +28,10 @@
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
     "@retailmenot/grunt-hooks": "^1.0.0",
     "debug": "^4.1.0",
-    "eslint": "^4.19.1",
-    "grunt": "^1.0.2",
-    "gruntify-eslint": "^4.0.0",
-    "mock-fs": "^4.5.0",
-    "tap": "^11.0.0"
+    "eslint": "^5.10.0",
+    "grunt": "^1.0.3",
+    "gruntify-eslint": "^5.0.0",
+    "mock-fs": "^4.7.0",
+    "tap": "^12.1.0"
   }
 }
