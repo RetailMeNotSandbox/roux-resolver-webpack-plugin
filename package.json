@@ -4,16 +4,17 @@
   "description": "Webpack resolver plugin for resolving entrypoints within a roux pantry.",
   "main": "index.js",
   "scripts": {
-    "test": "tap -Rspec test/*.js",
-    "lint": "grunt lint",
-    "jsb": "grunt jsb"
+    "test": "npm run eslint && tap -Rspec test/*.js",
+    "eslint": "eslint . --ext .js",
+    "eslint:fix": "npm run eslint -- --fix"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/RetailMeNotSandbox/roux-resolver-webpack-plugin.git"
   },
   "keywords": [
-    "roux"
+    "roux",
+    "webpack"
   ],
   "author": "RMN Engineering",
   "contributors": [
@@ -27,11 +28,14 @@
   },
   "devDependencies": {
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
-    "@retailmenot/grunt-hooks": "^1.0.0",
     "eslint": "^5.12.1",
-    "grunt": "^1.0.3",
-    "gruntify-eslint": "^5.0.0",
+    "husky": "^1.3.1",
     "mock-fs": "^4.7.0",
     "tap": "^12.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
