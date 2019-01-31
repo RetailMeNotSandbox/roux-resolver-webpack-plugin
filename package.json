@@ -1,6 +1,6 @@
 {
   "name": "@retailmenot/roux-resolver-webpack-plugin",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Webpack resolver plugin for resolving entrypoints within a roux pantry.",
   "main": "index.js",
   "scripts": {
