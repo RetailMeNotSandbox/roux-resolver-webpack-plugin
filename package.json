@@ -22,16 +22,16 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@retailmenot/roux": "^1.0.1"
+    "@retailmenot/roux": "^1.0.1",
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
     "@retailmenot/grunt-hooks": "^1.0.0",
-    "debug": "^4.1.0",
-    "eslint": "^5.10.0",
+    "eslint": "^5.12.1",
     "grunt": "^1.0.3",
     "gruntify-eslint": "^5.0.0",
     "mock-fs": "^4.7.0",
-    "tap": "^12.1.0"
+    "tap": "^12.5.0"
   }
 }
