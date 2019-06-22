@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
-    "eslint": "^5.12.1",
+    "eslint": "^6.0.0",
     "husky": "^2.3.0",
     "mock-fs": "^4.10.0",
     "tap": "^14.1.1"
