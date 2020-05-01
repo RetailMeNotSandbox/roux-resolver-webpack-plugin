@@ -6,7 +6,9 @@
   "scripts": {
     "test": "npm run eslint && tap -Rspec test/*.js",
     "eslint": "eslint . --ext .js",
-    "eslint:fix": "npm run eslint -- --fix"
+    "eslint:fix": "npm run eslint -- --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
   "license": "MIT",
   "dependencies": {
     "@retailmenot/roux": "^2.0.0",
-    "debug": "^4.1.1"
+    "debug": "^4.1.1",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
@@ -37,5 +40,6 @@
     "hooks": {
       "pre-push": "npm test"
     }
-  }
+  },
+  "snyk": true
 }
