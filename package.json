@@ -25,15 +25,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@retailmenot/roux": "^2.1.0",
-    "debug": "^4.1.1",
-    "snyk": "^1.319.1"
+    "@retailmenot/roux": "^2.2.0",
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "@retailmenot/core-ui-eslintrc": "^7.0.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.5.0",
     "husky": "^4.2.5",
     "mock-fs": "^4.12.0",
+    "snyk": "^1.363.0",
     "tap": "^14.10.7"
   },
   "husky": {
